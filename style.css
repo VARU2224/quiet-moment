@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.screen {
+  display: none;
+  height: 100vh;
+  padding: 20px;
+}
+
+.screen.active {
+  display: block;
+}
+
+.full-image {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 12px;
+}
+
+.hint {
+  opacity: 0.6;
+  margin-top: 10px;
+}
+
+.poem p {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.end {
+  font-size: 18px;
+  opacity: 0.8;
+}
