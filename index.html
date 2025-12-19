@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>A Quiet Moment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SCREEN 1 : IMAGE -->
+  <div class="screen active" id="screen1">
+    <img src="photo.jpg" class="full-image" />
+    <p class="hint">Tap once. Slowly.</p>
+  </div>
+
+  <!-- SCREEN 2 : POEM -->
+  <div class="screen" id="screen2">
+    <div class="poem">
+      <p>Two smiles, one quiet frame,</p>
+      <p>Moments glow without a name.</p>
+      <p>No filters loud, no heavy art,</p>
+      <p>Just simple joy, just honest heart.</p>
+    </div>
+    <button onclick="nextScreen()">One more thing</button>
+  </div>
+
+  <!-- SCREEN 3 : SPIN WHEEL -->
+  <div class="screen" id="screen3">
+    <h2>Spin — if you want</h2>
+    <div id="result">🎡</div>
+    <button onclick="spin()">Spin the wheel</button>
+  </div>
+
+  <!-- SCREEN 4 : END -->
+  <div class="screen" id="screen4">
+    <p class="end">
+      That’s all.<br/>
+      Not everything needs a reply.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
